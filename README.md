@@ -1,37 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AlbumCoverGenerator
 
-## Getting Started
+Generate one-of-a-kind album covers from emojis, gradients, and text. Pure browser canvas, no backend, no AI.
 
-First, run the development server:
+## Links
+
+- **Live site:** https://albumcovergenerator.vercel.app
+- **Repo:** https://github.com/mtrejo0/AlbumCoverGenerator
+- **Demo video:** https://www.youtube.com/watch?v=bxS-p2YK9Xk
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev          # Next dev server (Turbopack)
+npm run build        # Production build
+npm run start        # Production server
+npm run lint         # next/eslint
+npm run validate:ph  # Validate product-hunt.json against PH limits
+```
 
-## Learn More
+## Project layout
 
-To learn more about Next.js, take a look at the following resources:
+- `app/page.tsx` — the entire generator (client component, single-file)
+- `app/layout.tsx`, `app/globals.css` — root chrome and dark theme
+- `product-hunt.json` — Product Hunt launch draft
+- `agents.md` — agent-oriented overview of the codebase
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# AlbumCoverGenerator
+Built with Next.js 16, React 19, TypeScript, Tailwind CSS 3, and lucide-react.
