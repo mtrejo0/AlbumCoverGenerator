@@ -20,11 +20,10 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Scripts
 
 ```bash
-npm run dev          # Next dev server (Turbopack)
-npm run build        # Production build
-npm run start        # Production server
-npm run lint         # next/eslint
-npm run validate:ph  # Validate product-hunt.json against PH limits
+npm run dev    # Next dev server (Turbopack)
+npm run build  # Production build
+npm run start  # Production server
+npm run lint   # next/eslint
 ```
 
 ## Project layout
