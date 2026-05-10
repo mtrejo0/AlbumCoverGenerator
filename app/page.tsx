@@ -771,6 +771,22 @@ export default function Home() {
             </div>
           </main>
         </div>
+
+        <footer className="mt-12 flex justify-center pb-4">
+          <a
+            href="https://www.producthunt.com/products/random-album-cover-generator?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-random-album-cover-generator"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              alt="Random Album Cover Generator - Make album covers from emojis, gradients, and bold text. | Product Hunt"
+              width="250"
+              height="54"
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1143671&theme=light&t=1778430189589"
+            />
+          </a>
+        </footer>
       </div>
     </div>
   );
