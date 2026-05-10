@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "validate:ph": "node ~/.cursor/skills/product-hunt-project-summary/validate.mjs"
+    "validate:ph": "bash ~/.cursor/skills/product-hunt-project-summary/validate.sh"
   },
   "dependencies": {
     "lucide-react": "^1.14.0",
